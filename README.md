@@ -4,6 +4,27 @@
 
 
 ## Key Features
+##Data Collection 
+We have utilized a dataset from Rosetta:
+Network Map Renewables July 2024 (Points).csv
+This dataset provides detailed information on renewable energy assets and projects across various regions in Australia, including:
+
+Asset type
+Site name
+Technology type
+Fuel type
+Geographical coordinates
+Associated organizations
+
+Weather Information Integration
+We have augmented this dataset with weather data for specific geographical locations (latitude and longitude). This includes:
+
+Solar Irradiance Data from NASA POWER:
+https://power.larc.nasa.gov/
+Temperature Data from Open Meteo:
+https://open-meteo.com/
+
+These data sources allowed us to factor in essential environmental variables that impact the efficiency of solar power generation, such as temperature and solar irradiance.
 
 ## Visualization 
 Solar Power Plant Analysis
