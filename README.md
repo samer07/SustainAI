@@ -5,8 +5,9 @@
 
 ## Key Features
 
-##Data Collection 
-e have utilized a dataset from **Rosetta** that provides detailed information on renewable energy assets and projects across various regions in Australia. The dataset includes:
+### Data Collection 
+
+We have utilized a dataset from **Rosetta** that provides detailed information on renewable energy assets and projects across various regions in Australia. The dataset includes:
 
 - Asset type
 - Site name
