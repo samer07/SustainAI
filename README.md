@@ -53,6 +53,7 @@ The integration of weather data with the renewable energy assets dataset allows 
    
 3. **Open Meteo**:
    - Get real-time and historical temperature data from [Open Meteo API](https://open-meteo.com/).
+   - 
 ## Visualization 
 Solar Power Plant Analysis
 Geographical Distribution
@@ -70,3 +71,26 @@ This graph illustrates the distribution of solar power plant capacities.
 Technology Impact
 <img src="https://github.com/samer07/SustainAI/blob/main/technology%20imapct%20on%20location%20and%20capacity.jpg" alt="Technology Impact on Location and Capacity" width="600"/>
 This visualization demonstrates the impact of technology on the location and capacity of solar power plants.
+
+
+## Prediction and Clustering
+
+We predict solar potential using the **RandomForestRegressor** model with the following features:
+
+- **Latitude**
+- **Longitude**
+- **Temperature**
+- **Wind Speed**
+- **Cloud Cover**
+- **Humidity**
+
+## Clustering of Power Plants
+
+Clustering is performed based on power plant location and weather conditions to group similar regions. 
+
+![Clustering of Power Plants](https://github.com/samer07/SustainAI/blob/main/clustering.jpg)
+
+
+
+
+
